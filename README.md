@@ -10,3 +10,8 @@ To install this application, a docker-compose.yaml file has been provided. To st
 docker compose up
 ```
 
+# Firewall
+It is important to restrict access to the API from the Internet. Because of this, it is very important to setup a firewall in front of the API to restrict access only from Nexmo IP addresses. The list of addresses can be found here:
+
+[Nexmo API IP addresses](https://api.support.vonage.com/hc/en-us/articles/16567926552860-Which-IP-addresses-should-I-allow-for-the-Vonage-messaging-related-API-services)
+
