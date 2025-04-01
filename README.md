@@ -9,6 +9,7 @@ To install this application, a docker-compose.yaml file has been provided. To st
 ```
 docker compose up
 ```
+The application will be exposed on using `http` protocol on port 5000.
 
 # Firewall
 It is important to restrict access to the API from the Internet. Because of this, it is very important to setup a firewall in front of the API to restrict access only from Nexmo IP addresses. The list of addresses can be found here:
