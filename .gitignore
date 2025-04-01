@@ -1,4 +1,4 @@
 vars.env
 numbermaps.json
 __pycache__
-
+*.swp
