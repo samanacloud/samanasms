@@ -1,0 +1,11 @@
+services:
+  sms:
+    build: .
+    restart: on-failure:3
+    ports: 
+      - "35301:5000"
+    env_file:
+      - vars.env
+    volumes:
+      - ./numbermaps.json:/app/numbermaps.json
+
